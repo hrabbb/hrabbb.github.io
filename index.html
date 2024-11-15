@@ -7,10 +7,7 @@
 <body>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  h1 {text-align: center; font-family: Helvetica; color: #3f2f28;   text-decoration-line: underline; text-decoration-color: #e35815; }
-  body {
-  background-color: FFEBCD;
-}
+  body {text-align: left; font-family: courier; color: #3f2f28; background-color: 	#FFEBCD;}
   img {
     display: block;
     margin-left: auto;
@@ -27,6 +24,34 @@
   top: 102%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Helvetica;
+  color: #3f2f28;
+  text-decoration-line: underline;
+  text-decoration-color: #e35815; 
+  
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border-style: dashed solid solid dashed;
+  border-color: #3f2f28;
+  border-radius: 1 px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FFEBCD;
+  color: #3f2f28;
+  padding: 12px 20px;
+  border-style: dashed solid solid dashed;
+  border-color: #3f2f28;
+  border-radius: 1 px;
+  cursor: pointer;
 }
 
 </style>
@@ -35,6 +60,15 @@
   <h1 class="centered">Various <br> Things <br> Soon...</h1>
 </div>
   <p> <br> <br> <br> <br> <img alt="smiley" height="10" src="https://html5-editor.net/images/smiley.png" width="11" /></p>
+
+
+<iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  width="300"
+  height="200"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=10.1%2C51.10%2C0.100%2C80&layer=mapnik">
+</iframe>
 
 
 </body>
