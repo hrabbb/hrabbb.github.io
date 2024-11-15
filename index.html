@@ -7,7 +7,7 @@
 <body>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  h1 {text-align: center; font-family: Helvetica; color: #3f2f28;   text-decoration-line: underline overline; text-decoration-color: #e35815; }
+  h1 {text-align: center; font-family: Helvetica; color: #3f2f28;   text-decoration-line: underline; text-decoration-color: #e35815; }
   body {
   background-color: FFEBCD;
 }
@@ -16,8 +16,24 @@
     margin-left: auto;
     margin-right: auto;
   }
+ .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 </style>
-  <p><img alt="hrab" src="https://i.imgur.com/DldZzCx.gif" </p>
-  <h1> Various Things Soon...</h1>
-  <p><img alt="smiley" height="10" src="https://html5-editor.net/images/smiley.png" width="11" /></p>
+<div class="container">
+  <img src="https://i.imgur.com/DldZzCx.gif" alt="hrab" style="width:100%;">
+  <h1 class="centered">Various Things Soon...</h1>
+</div>
+  <p> <br> <img alt="smiley" height="10" src="https://html5-editor.net/images/smiley.png" width="11" /></p>
+
 </body>
